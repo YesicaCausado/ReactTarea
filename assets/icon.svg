@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a2332"/>
+  <circle cx="256" cy="256" r="240" fill="linear-gradient(135deg,#6ee7b7,#60a5fa)" />
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#grad)"/>
+
+  <!-- Hand -->
+  <path d="M140 340 C140 340 160 380 200 380 L340 380 C360 380 380 360 380 340 L380 320 C380 300 360 280 340 280 L280 280 L280 260 C280 240 300 240 300 220 C300 200 280 200 260 200 L200 200 C180 200 160 220 160 240 L160 300 Z" fill="#ffb347" stroke="#2d3748" stroke-width="6"/>
+
+  <!-- Fingers -->
+  <path d="M200 380 C200 400 180 400 160 390" fill="none" stroke="#ffb347" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Bills -->
+  <rect x="200" y="140" width="140" height="80" rx="8" fill="#4ade80" stroke="#166534" stroke-width="4"/>
+  <rect x="190" y="150" width="140" height="80" rx="8" fill="#22c55e" stroke="#166534" stroke-width="4"/>
+
+  <!-- Dollar coin -->
+  <circle cx="300" cy="120" r="40" fill="#fbbf24" stroke="#92400e" stroke-width="4"/>
+  <text x="300" y="132" text-anchor="middle" font-size="40" font-weight="bold" fill="#92400e" font-family="Arial">$</text>
+
+  <!-- Sparkles -->
+  <circle cx="340" cy="90" r="4" fill="#fff"/>
+  <circle cx="360" cy="110" r="3" fill="#fff"/>
+  <circle cx="270" cy="85" r="3" fill="#fff"/>
+
+  <!-- App name -->
+  <text x="256" y="460" text-anchor="middle" font-size="52" font-weight="800" fill="#fff" font-family="Arial, sans-serif">DivideYa</text>
+</svg>

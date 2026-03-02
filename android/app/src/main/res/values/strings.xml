@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DivideYa</string>
+    <string name="title_activity_main">DivideYa</string>
+    <string name="package_name">com.divideya.app</string>
+    <string name="custom_url_scheme">com.divideya.app</string>
+</resources>
